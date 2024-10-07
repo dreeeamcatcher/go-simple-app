@@ -1,0 +1,1 @@
+Simple go app to practise Docker multistage build
