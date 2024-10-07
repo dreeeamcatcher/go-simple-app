@@ -1,6 +1,8 @@
 # Stage 1: Build the Go application
 FROM golang:1.18-alpine AS builder
 
+ENV GO111MODULE=off
+
 # Set the working directory inside the container
 WORKDIR /app
 
